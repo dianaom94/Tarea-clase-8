@@ -1,0 +1,298 @@
+
+
+.containerheader {
+    display: flex;
+    width: 100%;
+    background-color: #b5a5c9;
+}
+
+@media only screen and (max-width: 400px) {
+    .containerheader{
+        background-color: #a39683 !important; 
+    }
+
+    .containeraside{
+        
+        display: none !important;
+    }
+    
+    .containersection .boxcontainer{
+        display: flex !important;
+        height: 100% !important; 
+        width: 100% !important;
+    
+    }
+    .niñosclase, .adultosclase{
+        width: 100%  !important;
+    }
+    .titulo{
+        width: 100% !important;
+        font-size: 25px !important;
+        
+    
+    }
+    .galeriacontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .niñosbox {
+        width: 60%;
+        height: 20%;
+    }
+    .textoniños, .textoadultos{
+        text-align: center;
+    }
+    .adultosbox{
+        width: 60%;
+        height: 20%;
+    }
+    
+}
+
+
+.containerheader .containerheader1 {
+    display: flex;
+    height: 100%; 
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    
+  
+}
+
+
+.titulo{
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Original Surfer', cursive;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.containersection{
+    display: flex;
+    height: 100%; 
+    width: 100%;
+
+}
+
+
+.containersection .boxcontainer{
+    display: flex;
+    height: 100%; 
+    width: 70%;
+   
+}
+
+.containersection .boxcontainer .boxcontainer .imagentitulo{
+    display: flex;
+    height: 100%; 
+    width: 100%;
+}
+
+
+.imagentitulo .imagensection{
+   
+    width: 100%;
+    height: 90%;
+}
+
+
+
+
+.imagentitulo {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    
+}
+.containersection2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    
+}
+.containersection2 .titulosection{
+    text-align: center;
+    font-family: 'Original Surfer', cursive;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-bottom: 90px;
+    margin-top: 40px;
+}
+
+
+
+
+.fotoscontainer .galeriacontainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.galeriacontainer .niñosbox .adultosbox{
+    padding: 2rem 1rem;
+   
+}
+.fotoscontainer .niñosclase{
+    box-shadow:rgb(141, 136, 110) -10px 0px 20px 1px;;
+    width: 300px;
+    height: 400px;
+}
+
+.textoniños{
+    font-family: 'Original Surfer', cursive;
+    letter-spacing: 1px;
+}
+
+
+.adultosclase{
+    display: flex;
+    width: 300px;
+    height: 400px;
+    box-shadow:rgb(141, 115, 110) 10px 0px 20px 2px;;
+}
+
+.textoadultos{
+    
+    font-family: 'Original Surfer', cursive;
+    letter-spacing: 1px;
+}
+
+.parrafocontainer{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Original Surfer', cursive;
+    letter-spacing: 1px;
+}
+
+.parrafocontainer .parrafo{
+    flex-direction: column;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+
+.containeraside{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    font-family: 'Original Surfer', cursive;
+    letter-spacing: 2px;
+    justify-content: center;
+
+}
+.logo{
+    width: 100% !important;
+}
+.containeraside .asidecontainer{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background-color: #dbd4e63a;
+    padding-bottom: 880px;
+}
+
+
+.containercontacto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+
+.containercontacto .maincontainercontacto{
+    
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    border-radius: 10px;
+    width:70%;
+    font-size: 100%;
+}
+
+.containercontacto .maincontainercontacto .inputnombre{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 5px;
+    font-family: 'Original Surfer', cursive;
+    letter-spacing: 2px;
+}
+
+.containercontacto .maincontainercontacto .inputcorreo {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 5px;
+    font-family: 'Original Surfer', cursive;
+    letter-spacing: 2px;
+}
+.containercontacto .maincontainercontacto .inputnumero {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 15px;
+    font-family: 'Original Surfer', cursive;
+    letter-spacing: 2px;
+}
+
+.inputbox {
+    justify-content: center;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border:3px solid #9183a3;
+    
+}
+.botonstyle:hover{
+    background: thistle;
+    transition:ease-out .5s ;
+
+
+}
+
+.botonenviar{
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    align-items: center;
+    font-family: 'fuentehandsome' ;
+    font-size: 30px;
+    font-family: 'Original Surfer', cursive;
+    letter-spacing: 2px;
+}
+
+.botonstyle{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    background: #9183a3;
+    color: rgb(0, 0, 0);
+    display: flex;
+    width: 50%;
+    border:3px solid #020202;
+    border-radius: 5px;
+}
+
+
+
+
+
