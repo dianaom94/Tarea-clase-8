@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
 <script src="./funcion.js"></script>
+<script src="./formulario.js"></script>
 </head>
 <body>
     <div class="containerheader">
@@ -18,11 +19,11 @@
     </header>
     </div>
     
-     <div class="containersection">
+    <div class="containersection">
         <section class="boxcontainer">
             <div class="imagentitulo">
                 <img class="imagensection"src="./Multimedia/pexels-jess-vide-4602966.jpg" alt="bicicletajpg">
-             <article class="containersection2">
+                <article class="containersection2">
                     <h1 class="titulosection">GALERÍA</h1>
                     <div class="fotoscontainer">
                         <div class="galeriacontainer"> 
@@ -47,24 +48,31 @@
             </div>   
         </section>
             <div class="containeraside">
-                 <aside class="asidecontainer">
+                <aside class="asidecontainer">
                     <img class="logo" src="./Multimedia/logazo.png" alt="logopng">
                     <h3 style="font-size: 100%; margin-top: -6px;">Más información</h3>
                     <div class="containercontacto">
                         <h1 style=" font-size: 100%;margin-top: 0px;">¡CONTÁCTANOS!</h1>
-                         <form action="#"class="maincontainercontacto">
+                        <form action="#"class="maincontainercontacto">
                             <div class="inputnombre">
-                                <input class="inputbox" placeholder="Nombre..." type="text">
+                                <label class="labelnombre"for="">Ingresa tu nombre completo:</label>
+                                <input id="nombre" class="boxnombre" placeholder="Nombre..." type="text" onchange="ValidaNombre()">
+                                <p id="mensageNombre" class="msgNombre"></p>
                             </div>
                             <div class="inputcorreo">
-                                <input class="inputbox" placeholder="Correo..." type="text">
+                                <label class="labelcorreo"for="">Ingresa tu correo:</label>
+                                <input id="correo" class="boxcorreo" placeholder="Correo..." type="text" onchange="ValidaCorreo()">  
+                                <p id="msgCorreo"></p>
                             </div>
                             <div class="inputnumero">
-                                <input class="inputbox" placeholder="Teléfono..." type="text">
+                                <label class="labelnumero"for="">Ingresa tu número:</label>
+                                <input id="numero" class="boxnumero" placeholder="Teléfono..." type="number" onchange="ValidaNumero()">
+                                <p id="msgNumero"></p>
                             </div>
         
                             <div class="botonenviar"> 
-                                <input class="botonstyle"type="submit">
+                                <input class="botonstyle"type="submit" onchange="ValidaNombre()">
+                                
                             </div>
                         </form>
                     </div>
@@ -73,6 +81,5 @@
             </div>   
     </div>
     
-   
 </body>
 </html>

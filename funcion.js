@@ -6,3 +6,5 @@ function hacerClic(){
 }
 
 window.onload = hacerClic;
+
+

@@ -39,15 +39,15 @@
         height: 100%;
     }
     .niñosbox {
-        width: 60%;
-        height: 20%;
+        width: 100%;
+       
     }
     .textoniños, .textoadultos{
         text-align: center;
     }
     .adultosbox{
-        width: 60%;
-        height: 20%;
+        width: 100%;
+        
     }
     
 }
@@ -141,7 +141,6 @@
 
 .galeriacontainer .niñosbox .adultosbox{
     padding: 2rem 1rem;
-   
 }
 .fotoscontainer .niñosclase{
     box-shadow:rgb(141, 136, 110) -10px 0px 20px 1px;;
@@ -226,41 +225,76 @@
 }
 
 .containercontacto .maincontainercontacto .inputnombre{
-    height: 60px;
     display: flex;
-    justify-content: space-between;
     width: 100%;
-    padding-bottom: 5px;
     font-family: 'Original Surfer', cursive;
-    letter-spacing: 2px;
+    flex-direction: column;
 }
 
 .containercontacto .maincontainercontacto .inputcorreo {
-    height: 60px;
     display: flex;
-    justify-content: space-between;
     width: 100%;
-    padding-bottom: 5px;
     font-family: 'Original Surfer', cursive;
-    letter-spacing: 2px;
+    flex-direction: column;
 }
 .containercontacto .maincontainercontacto .inputnumero {
-    height: 60px;
     display: flex;
-    justify-content: space-between;
     width: 100%;
     padding-bottom: 15px;
     font-family: 'Original Surfer', cursive;
-    letter-spacing: 2px;
+    flex-direction: column;
 }
 
-.inputbox {
+.boxnumero {
+    margin-top: 5px;
     justify-content: center;
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.9rem;
     border-radius: 5px;
     border:3px solid #9183a3;
     
+}
+
+.boxcorreo {
+    margin-top: 5px;
+    justify-content: center;
+    width: 100%;
+    padding: 0.9rem;
+    border-radius: 5px;
+    border:3px solid #9183a3;
+    
+    
+    
+}
+
+.boxnombre{
+    margin-top: 5px;
+    padding: 0.9rem;
+    border-radius: 5px;
+    border:3px solid #9183a3;
+    width: 100%;
+}
+
+.labelnombre{
+    width: 100%;
+    flex-direction: column;
+    letter-spacing: 0;
+    text-align: left;
+
+}
+
+.labelcorreo{
+    width: 100%;
+    flex-direction: column;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.labelnumero{
+    width: 100%;
+    flex-direction: column;
+    letter-spacing: 0;
+    text-align: left;
 }
 .botonstyle:hover{
     background: thistle;
@@ -292,7 +326,25 @@
     border-radius: 5px;
 }
 
+.error{
+    letter-spacing: 1px;
+    color: red;
+    font-size: 15px;
+}
 
+.exito{
+    letter-spacing: 1px;
+    color: green;
+    font-size: 15px;
+}
+
+.errorinput{
+    border:3px solid red;
+}
+
+.exitoinput{
+    border:3px solid green;
+}
 
 
 
